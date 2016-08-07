@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // array of string to be displayed
+
         String[] WeekDays = new String[]{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
         ListAdapter WeekDaysAdpater = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,WeekDays);
 
